@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Escolinha de skate do Bob</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!--icone da pagina-->
+        <link rel="shortcut icon" type="imagex/png" href="imagens/logo.svg">
+      </head>
+<body>
+    <!-- menu -->
+    <div class="fixed-top" class="container-fluid">
+        <div class="card text-bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="imagens/logo.svg" alt="logo" width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="index.html" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#Sobre">SOBRE</a>
+            </li>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#Aulas">AULA</a>
+            </li>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#Contatos">CONTATOS</a>
+            </li>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html#Eventos">EVENTOS</a>
+                </li>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="page_2.html">ISCREVA-SE</a>
+            </li>
+          </ul> 
+        </ul>
+      </ul>
+    </ul>
+    </ul>
+    </div>
+    </div>
+    </nav>
+    </div>
+    </div>
+      <br> <br>
+<!--carrossel-->
+      <div class="container-fluid"id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/image1.jpg" class="d-block w-100" alt="imagem_1">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/image2.jpg" class="d-block w-100" alt="imagem_2">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/image3.jpg" class="d-block w-100" alt="imagem_3">
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+<!--sobre-->
+<div class="container-fluid">
+    <center>
+        <pclass="text-start"><h2 id="Sobre">Bem-vindo à Escolinha de Skate do Bob, onde a paixão pelo skate começa desde cedo!</h2></pclass="text-start">
+    </center>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid" style="text-align: justify;">
+      <p class="text-align">Criada com o objetivo de formar novos talentos e espalhar a cultura do skate, nossa escolinha é mais do que um espaço de aulas — é um lugar onde crianças e adolescentes desenvolvem confiança, equilíbrio, disciplina e, claro, se divertem muito!</p>
+
+       <p> Com instrutores experientes, metodologia segura e um ambiente acolhedor, oferecemos aulas para todos os níveis: do primeiro empurrão até as primeiras manobras no half-pipe. Aqui, cada aluno é respeitado no seu ritmo e incentivado a superar seus próprios limites.</p>
+        
+       <p> Nossa missão é transformar a paixão pelo skate em uma ferramenta de crescimento pessoal, inclusão social e estilo de vida saudável.</p>
+        
+       <p> Vem com a gente deslizar nessa jornada sobre quatro rodinhas!</p>
+      </p>
+    </div>
+    <br>
+<!--aula-->
+    <div class="container-fluid">
+        <center>
+            <pclass="text-start"><h2 id="Aulas">Nossas Aulas Gratuitas</h2></pclass="text-start">
+        </center>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">DIA</th>
+                <th scope="col">HORÁRIO</th>
+                <th scope="col">NIVEL</th>
+                <th scope="col">SAIBA MAIS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">SEGUNDA</th>
+                <td>18:00 - 19:30</td>
+                <td>Iniciante</td>
+                <td><button onclick="mostrarMensagem1()">Clique aqui</button>
+                    <p id="Iniciante"></p></td>
+              </tr>
+              <tr>
+                <th scope="row">QUARTA</th>
+                <td>18:00 - 19:30</td>
+                <td>Intermediário</td>
+                <td><button onclick="mostrarMensagem2()">Clique aqui</button>
+                    <p id="Intermediário"></p></td>
+              </tr>
+              <tr>
+                <th scope="row">SABÁDO</th>
+                <td>10:00 - 12:00</td>
+                <td>Avançado</td>
+                <td><button onclick="mostrarMensagem3()">Clique aqui</button>
+                    <p id="Avançado"></p></td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <br>
+    <!--eventos-->
+    <div class="container-fluid">
+        <center>
+            <pclass="text-start"><h2 id="Eventos">Próximos Eventos</h2></pclass="text-start">
+        </center>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">competição de skate local</th>
+                <th scope="col"></th>
+                <td scope="row">9 de junho de 2025</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Desafio das Manobras</th>
+                <td></td>
+                <td>16 de junho de 2025</td>
+              </tr>
+              <tr>
+                <th scope="row">Skate & Arte – Oficina de Customização</th>
+                <td></td>
+                <td>30 de junho de 2025</td>
+              </tr>
+              <tr>
+                <th scope="row">Skate em Família – Dia Aberto</th>
+                <td></td>
+                <td>18 de julho de 2025</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+<!--mapa-->
+<div class="container-fluid">
+    <pclass="text-start"><h3 id="Contatos">Contatos</h3></pclass="text-start">
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15305.766740392039!2d-54.66612!3d-16.453158!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9379c907e21ab7a3%3A0x784a6fc7256fed24!2sSenai%20Rondon%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1719160713174!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!--contatos-->
+     <div class="col">
+       <div class="child">
+      <h4>Informações de Contato</h4>
+      <br>
+    <h5>Telefone para Informações e Doações:</h5>
+    <p>(66) 9 5842-7203</p>
+    <h5>Email Geral:</h5>
+    <p><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">contato@escolinhadobob.com</p></a>
+    <h5>Email para doação:</h5>
+    <p><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">doe@escolinhadobob.com</p></a>
+    <h5>Endereço:</h5>
+    <p>R. Ademir de Jesus Ribeiro, 3147 - Parque Res. Universitario, Rondonópolis</p>
+    <h5>Horários de Atendimento Telefônico</h5>
+    <p>Segunda a Sexta: das 8h às 18h</p>
+    <p>Sábado e Feriados: das 8h às 12h</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
+<br>
+ <!--rodape-->
+<div class="container-fluid">
+<footer>
+  <p>&copy; 2025 - Faculdade de Tecnologia SENAI Mato Grosso</p>
+  <p>Andrey Gonçalves</p>
+  <nav>
+    <ul>
+      <li><a href="#">Desenvolvido com ChatGPT - OpenAI GPT-4</a></li>
+      <li><a href="#">HTML/CSS/JavaScript</a></li>
+      <li><a href="#">Mobile First</a></li>
+      <li><a href="#">Bootstrap</a></li>
+    </ul>
+  </nav>
+</footer>
+</div>
+ <!--vlibras-->
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
